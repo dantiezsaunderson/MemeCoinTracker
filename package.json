@@ -1,0 +1,31 @@
+{
+  "name": "memecointracker",
+  "version": "1.0.0",
+  "description": "Build a Flask web app that tracks meme coin prices using the CoinGecko API. Display real-time price updates and visualize market data using Plotly charts. Users can search for specific meme coins.
+
+Build Command: pip install -r requirements.txt
+Start Command: python app.py
+Environment: python
+Owner ID: tea-cvk082hr0fns739l4sog
+Region: oregon
+Plan: starter
+Branch: main
+Auto Deploy: yes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
